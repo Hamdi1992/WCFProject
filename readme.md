@@ -17,6 +17,7 @@
 ### Config : 
 [ServiceCustomer] and  [TemplateService]  provide a app.config file where the connection string is provided.
 Make sure to change it :
-```<connectionStrings>
+```
+<connectionStrings>
 		<add name="PostgresqlDBContext" connectionString="host=localhost;port=5432;database=TestServices;user id=postgres;password=1" providerName="Npgsql" />
 	</connectionStrings>```
